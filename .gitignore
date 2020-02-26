@@ -1,0 +1,31 @@
+# Android generated
+bin/
+gen/
+app/*.*
+!app/lint.xml
+
+# Maven
+target/
+pom.xml.*
+release.properties
+
+# Android Studio/IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# Mac
+.DS_Store
+
+# Ignore gradle files
+.gradle/
+build/
+product*/
+
+local.properties
+*.jks
+
+/.gitmodules
+
