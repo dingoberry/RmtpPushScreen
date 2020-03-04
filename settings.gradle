@@ -1,2 +1,2 @@
-include ':app', ':sublibrary'
+include ':app', ':sublibrary', ':libWSLive'
 rootProject.name='My Application'

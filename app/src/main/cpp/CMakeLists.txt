@@ -16,6 +16,12 @@ add_library(
         rtmp-exe.cpp
         ${PROJECT_SOURCES})
 
+add_library(
+        rtmp-api-lib
+        SHARED
+        rtmp-handle.cpp
+        ${PROJECT_SOURCES})
+
 # Creates and names a library, sets it as either STATIC
 # or SHARED, and provides the relative paths to its source code.
 # You can define multiple libraries, and CMake builds them for you.
@@ -56,4 +62,8 @@ target_link_libraries( # Specifies the target library.
 
 target_link_libraries(
         rtmp-lib
+        ${log-lib})
+
+target_link_libraries(
+        rtmp-api-lib
         ${log-lib})
