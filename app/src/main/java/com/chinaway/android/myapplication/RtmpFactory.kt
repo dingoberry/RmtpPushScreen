@@ -7,6 +7,6 @@ object RtmpFactory {
     var url = SERVER_URL
 
     fun createSender(w: Int, h: Int): RtmpSource {
-        return RtmpLiveApi(url, w, h)
+        return RtmpSender(url)
     }
 }
