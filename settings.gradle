@@ -1,2 +1,5 @@
-include ':app', ':sublibrary', ':libWSLive'
+include ':app', ':sublibrary', ':libWSLive', ':EasyLib', ':EasyDemo'
 rootProject.name='My Application'
+
+project(':EasyLib').projectDir = file('EasyLib/library')
+project(':EasyDemo').projectDir = file('EasyLib/myapplication')
