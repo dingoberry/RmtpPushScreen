@@ -1,0 +1,10 @@
+build
+.gradle
+.idea
+*.iml
+local.properties
+gradle.properties
+
+app/release/
+*.apk
+app/release/output.json
